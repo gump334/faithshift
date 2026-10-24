@@ -18,7 +18,7 @@ principle, and three small steps. Reflect on it, live it out, and pass it on.
 ## Support
 
 Questions, problems, or feedback? Email
-[blackcloudgeeks@gmail.com](mailto:blackcloudgeeks@gmail.com) and we'll get
-back to you.
+[faithshift@faithshiftapps.com](mailto:faithshift@faithshiftapps.com) and
+we'll get back to you.
 
 FaithShift is made by FaithShift LLC.

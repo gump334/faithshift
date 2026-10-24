@@ -61,7 +61,7 @@ FaithShift is not directed at children under 13.
 
 ## Contact
 
-FaithShift LLC — blackcloudgeeks@gmail.com
+FaithShift LLC — faithshift@faithshiftapps.com
 
 ## Changes
 
