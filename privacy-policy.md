@@ -4,10 +4,10 @@ title: FaithShift Privacy Policy
 
 # FaithShift Privacy Policy
 
-*Last updated: October 16, 2026.*
+*Last updated: October 24, 2026.*
 
-FaithShift is a daily Christian devotional app. We built it so that your
-personal spiritual life stays personal.
+FaithShift is a daily Christian devotional app, operated by **FaithShift LLC**.
+We built it so that your personal spiritual life stays personal.
 
 ## What stays on your iPhone
 
@@ -61,7 +61,7 @@ FaithShift is not directed at children under 13.
 
 ## Contact
 
-blackcloudgeeks@gmail.com
+FaithShift LLC — blackcloudgeeks@gmail.com
 
 ## Changes
 
