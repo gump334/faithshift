@@ -1,5 +1,8 @@
 /* FaithShift Apps — brand: deep evergreen night, burnished gold, warm ivory type.
    Layout: one centered column (max 1120px); sections alternate between open ground and quiet panels. */
+/* Fonts are hosted on this site (SIL Open Font License, see assets/fonts/*-OFL.txt); no third-party requests. */
+@font-face{font-family:"Gloock";src:url("/assets/fonts/gloock.woff") format("woff");font-weight:400;font-style:normal;font-display:swap}
+@font-face{font-family:"Karla";src:url("/assets/fonts/karla-var.woff") format("woff");font-weight:200 800;font-style:normal;font-display:swap}
 :root{
   --night:#061310;      /* page ground, matches the monogram backdrop */
   --panel:#0c1d18;      /* raised sections */
