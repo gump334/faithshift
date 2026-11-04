@@ -21,7 +21,7 @@
 html{scroll-behavior:smooth}
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{animation:none!important;transition:none!important}}
 body{margin:0;background:var(--night);color:var(--ivory);font-family:var(--body);font-size:17px;line-height:1.6;-webkit-font-smoothing:antialiased}
-img{max-width:100%;display:block}
+img{max-width:100%;height:auto;display:block}
 a{color:var(--gold-bright);text-underline-offset:3px}
 a:hover{color:var(--ivory)}
 :focus-visible{outline:2px solid var(--gold-bright);outline-offset:3px;border-radius:4px}
@@ -59,7 +59,7 @@ p{margin:0}
 .hero h1 em{font-style:normal;color:var(--gold-bright)}
 .hero .lede{margin-top:20px}
 .hero .actions{display:flex;flex-wrap:wrap;gap:12px;align-items:center;margin-top:30px}
-.hero-mark{position:absolute;right:-140px;top:-60px;width:640px;opacity:.20;pointer-events:none;-webkit-mask-image:radial-gradient(circle at center,#000 35%,transparent 70%);mask-image:radial-gradient(circle at center,#000 35%,transparent 70%)}
+.hero-mark{height:auto;aspect-ratio:1/1;position:absolute;right:-140px;top:-60px;width:640px;opacity:.20;pointer-events:none;-webkit-mask-image:radial-gradient(circle at center,#000 35%,transparent 70%);mask-image:radial-gradient(circle at center,#000 35%,transparent 70%)}
 
 /* phone mock */
 .phone{justify-self:center;width:min(330px,100%);border-radius:44px;padding:12px;background:linear-gradient(160deg,#25322d,#0b1411);box-shadow:0 40px 80px rgba(0,0,0,.55),0 0 0 1px rgba(255,255,255,.06) inset;position:relative}
@@ -127,7 +127,7 @@ ol.journey{margin:0;padding:0}
 .promise li span{color:var(--mist);font-size:16px}
 
 .about{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:48px;align-items:center}
-.about img{border-radius:24px;border:1px solid var(--line);width:100%;max-width:380px}
+.about img{border-radius:24px;border:1px solid var(--line);width:100%;max-width:380px;height:auto;aspect-ratio:1/1;object-fit:cover}
 .about p+p{margin-top:14px}
 .about .lede{max-width:none}
 
@@ -171,7 +171,7 @@ details.faq .ans{padding:0 0 20px;color:#dcd6c9;display:flex;flex-direction:colu
   .journey,.areas{grid-template-columns:repeat(2,minmax(0,1fr))}
   .features{grid-template-columns:repeat(2,minmax(0,1fr))}
   .plans{grid-template-columns:1fr}
-  .about img{max-width:320px}
+  .about img{max-width:260px}
 }
 @media (max-width:560px){
   body{font-size:16px}
