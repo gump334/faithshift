@@ -1,10 +1,10 @@
 /* FaithShift Apps — "Lamplight" brand, matching the iPhone app:
-   deep green-black ground, warm gold light, one strong sans-serif (Plus Jakarta Sans).
+   deep green-black ground, warm gold light, the original Gloock and Karla fonts.
    Layout: one centered column (max 1120px); sections alternate between open ground and quiet panels. */
 /* Fonts are hosted on this site (SIL Open Font License, see assets/fonts/*-OFL.txt); no third-party requests.
-   Gloock: big headlines and Scripture. Plus Jakarta Sans: everything else. */
+   Gloock: headings and Scripture. Karla: everything else. */
 @font-face{font-family:"Gloock";src:url("/assets/fonts/gloock.woff") format("woff");font-weight:400;font-style:normal;font-display:swap}
-@font-face{font-family:"Plus Jakarta Sans";src:url("/assets/fonts/plusjakartasans-var.woff") format("woff");font-weight:200 800;font-style:normal;font-display:swap}
+@font-face{font-family:"Karla";src:url("/assets/fonts/karla-var.woff") format("woff");font-weight:200 800;font-style:normal;font-display:swap}
 :root{
   --night:#08130f;      /* page ground, the app's background */
   --panel:#0d1b16;      /* quiet sections */
@@ -18,7 +18,7 @@
   --unlit:#3a4f45;
   --line:#1d3029;       /* dividers only */
   --serif:"Gloock", "Iowan Old Style", Georgia, serif;
-  --sans:"Plus Jakarta Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --sans:"Karla", system-ui, -apple-system, "Segoe UI", sans-serif;
   color-scheme:dark;
 }
 *{box-sizing:border-box}
@@ -31,7 +31,7 @@ a:hover{color:var(--ivory)}
 :focus-visible{outline:2px solid var(--gold-bright);outline-offset:3px;border-radius:4px}
 h1,h2,h3{margin:0;text-wrap:balance}
 h1,h2{font-family:var(--serif);font-weight:400;letter-spacing:0;line-height:1.12}
-h3{font-family:var(--sans);font-weight:700;letter-spacing:-.015em;line-height:1.2}
+h3{font-family:var(--serif);font-weight:400;letter-spacing:0;line-height:1.2}
 p{margin:0}
 .wrap{max-width:1120px;margin:0 auto;padding-left:max(20px,env(safe-area-inset-left,0px));padding-right:max(20px,env(safe-area-inset-right,0px))}
 .eyebrow{display:inline-flex;align-items:center;gap:10px;font-size:15px;font-weight:700;color:var(--gold)}
