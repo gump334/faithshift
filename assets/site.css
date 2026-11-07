@@ -2,8 +2,8 @@
    deep green-black ground, warm gold light, one strong sans-serif (Plus Jakarta Sans).
    Layout: one centered column (max 1120px); sections alternate between open ground and quiet panels. */
 /* Fonts are hosted on this site (SIL Open Font License, see assets/fonts/*-OFL.txt); no third-party requests.
-   Young Serif: big headlines and Scripture. Plus Jakarta Sans: everything else. */
-@font-face{font-family:"Young Serif";src:url("/assets/fonts/youngserif.woff") format("woff");font-weight:400;font-style:normal;font-display:swap}
+   Gloock: big headlines and Scripture. Plus Jakarta Sans: everything else. */
+@font-face{font-family:"Gloock";src:url("/assets/fonts/gloock.woff") format("woff");font-weight:400;font-style:normal;font-display:swap}
 @font-face{font-family:"Plus Jakarta Sans";src:url("/assets/fonts/plusjakartasans-var.woff") format("woff");font-weight:200 800;font-style:normal;font-display:swap}
 :root{
   --night:#08130f;      /* page ground, the app's background */
@@ -17,7 +17,7 @@
   --gold-soft:rgba(226,188,110,.14);
   --unlit:#3a4f45;
   --line:#1d3029;       /* dividers only */
-  --serif:"Young Serif", "Iowan Old Style", Georgia, serif;
+  --serif:"Gloock", "Iowan Old Style", Georgia, serif;
   --sans:"Plus Jakarta Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
   color-scheme:dark;
 }
@@ -30,7 +30,7 @@ a{color:var(--gold-bright);text-underline-offset:3px}
 a:hover{color:var(--ivory)}
 :focus-visible{outline:2px solid var(--gold-bright);outline-offset:3px;border-radius:4px}
 h1,h2,h3{margin:0;text-wrap:balance}
-h1,h2{font-family:var(--serif);font-weight:400;letter-spacing:-.02em;line-height:1.12}
+h1,h2{font-family:var(--serif);font-weight:400;letter-spacing:0;line-height:1.12}
 h3{font-family:var(--sans);font-weight:700;letter-spacing:-.015em;line-height:1.2}
 p{margin:0}
 .wrap{max-width:1120px;margin:0 auto;padding-left:max(20px,env(safe-area-inset-left,0px));padding-right:max(20px,env(safe-area-inset-right,0px))}
@@ -63,7 +63,7 @@ p{margin:0}
 .hero{position:relative;overflow:hidden;padding-block:72px 88px}
 .hero::before{content:"";position:absolute;right:-180px;top:-220px;width:760px;height:760px;border-radius:50%;background:radial-gradient(circle,rgba(226,188,110,.20) 0%,rgba(226,188,110,0) 62%);pointer-events:none}
 .hero .wrap{position:relative;display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,.9fr);gap:48px;align-items:center}
-.hero h1{font-size:clamp(44px,6.8vw,76px);letter-spacing:-.025em;margin-top:18px}
+.hero h1{font-size:clamp(44px,6.8vw,76px);letter-spacing:-.005em;margin-top:18px}
 .hero h1 em{font-style:normal;color:var(--gold)}
 .hero .lede{margin-top:22px}
 .hero .actions{display:flex;flex-wrap:wrap;gap:12px;align-items:center;margin-top:32px}
@@ -123,7 +123,7 @@ ol.journey{margin:0;padding:0}
 .feature .ic svg{width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
 
 .verse-band{text-align:center}
-.verse-band blockquote{margin:0 auto;max-width:26ch;font-family:var(--serif);font-size:clamp(28px,4.2vw,44px);font-weight:400;letter-spacing:-.015em;line-height:1.25}
+.verse-band blockquote{margin:0 auto;max-width:26ch;font-family:var(--serif);font-size:clamp(28px,4.2vw,44px);font-weight:400;letter-spacing:0;line-height:1.25}
 .verse-band cite{display:block;margin-top:18px;font-style:normal;color:var(--gold);font-size:15px;font-weight:600}
 
 .plans{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;align-items:stretch}
